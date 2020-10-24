@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Hasil Pencarian Berita</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../static/result_design/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../static/result_design/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="../static/result_design/css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="navbar-brand" href="index.html">Kembali ke Pencarian</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Top 10 Hasil Pencarian Berita</h1>
+            <span class="subheading">Kueri yang kamu masukkan : {{ query }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+         <!-- <a>-->
+            <h2 class="post-title">
+              {{ hasil }}
+            </h2>
+            <h3 class="post-subtitle">
+              Source berita 1, tanggal berita 1
+            </h3>
+         <!-- </a>-->
+          <p class="post-meta">{{ proximitys }}</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+         <!-- <a>-->
+            <h2 class="post-title">
+              Judul berita 2
+            </h2>
+            <h3 class="post-subtitle">
+              Source berita 2, tanggal berita 2
+            </h3>
+         <!-- </a>-->
+          <p class="post-meta">4 line berita 2</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+         <!-- <a>-->
+            <h2 class="post-title">
+              Judul berita 3
+            </h2>
+            <h3 class="post-subtitle">
+              Source berita 3, tanggal berita 3
+            </h3>
+         <!-- </a>-->
+          <p class="post-meta">4 line berita 3</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+         <!-- <a>-->
+            <h2 class="post-title">
+              Judul berita 4
+            </h2>
+            <h3 class="post-subtitle">
+              Source berita 4, tanggal berita 4
+            </h3>
+         <!-- </a>-->
+          <p class="post-meta">4 line berita 4</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Selanjutnya &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p class="copyright text-muted">Sistem Temu Balik Informasi - Kelompok 10</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../static/result_design/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/result_design/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="../static/result_design/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
